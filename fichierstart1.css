@@ -1,0 +1,168 @@
+html{
+	background-color: #EEF0F1;
+	color: black;
+
+}
+	
+flou{
+filter : blur(10px)
+}
+
+body {
+	margin: 0px;
+	width: 100%;
+	font-family: Georgia;
+	
+
+}	
+#entete {
+	background-color: #5B666F;
+
+	color: white;
+	top: 0px;
+	width: 1500px;
+	height: 160px;
+	
+	
+	
+}	 
+#entete2 {
+	background-color: #5B666F;
+	text-align: center;
+	color: white;
+	top: 0px;
+	width: 1000px;
+	height: 100px;
+	float:right;
+	margin-right:290px;
+	font-family: Georgia;
+	
+}
+
+#connexion {
+	background-color:  #D2B48C;
+	text-align: center;
+	color: black;
+	width: 1500px;
+	height: 160px;
+	
+	padding:0;
+	}
+
+	
+#inscription {
+	background-color:  #F5F5DC;
+	text-align: center;
+	color: black;
+	width: 1500px;
+	height: 100px;
+margin-left: 10px;	
+margin-top: 100px}
+
+
+
+
+a{	background-color: #5B666F;
+	color: white;
+	padding: 10px 90px;
+	border-radius: 10px 10px 10px 10px ;
+	text-decoration : none;
+	font-family: Georgia;
+
+}
+
+ul{
+	list-style-type:none;
+}
+a:hover{
+	background-color: #5B555F;
+	color: white
+	border-radius: 10px 10px 10px 10px ;
+	font-family: Georgia;
+}
+
+
+#searchbar{position:relative; width:80px; height:auto; margin-left:-80px ; }
+
+.formulaire               {display:inline-block; }
+.formulaire .champ       {width:180px; height:30px; border-radius: 50px 50px 50px 50px ;}
+
+
+#validation{background: #2325B2}
+
+
+#entete3{
+
+	margin-top: -55px;
+	
+	float:right;
+	margin-right:-120px;
+	
+
+
+}
+
+.button {
+  display: inline-block;
+  padding: 20px 60px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #2325B2;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color:  #D2B48C}
+
+.button:active {
+  background-color:  #D2B48C;
+  box-shadow: 0 5px #F5F5DC;
+  transform: translateY(4px);
+}
+
+
+#lol fieldset { width:200px; height:180px;    text-align: center;  	margin-left:580px; 
+
+}
+
+#lol2 {margin-left:600px;}
+
+#lol3 fieldset{ width:200px; height:530px;    text-align: center;  	margin-left:617px; }
+
+#global {
+   overflow:auto;
+}
+#gauche {
+   float:left;
+   width:75%;
+   }
+   
+#droite {
+	float:right;
+   width:25%;
+}
+
+.table1 {
+border-collapse:collapse;
+border:1px solid black;
+ }
+ .td1 /* Mettre une bordure sur les td ET les th */
+ {
+    border: 1px solid black;
+	border-collapse:collapse;
+}
+ .th1 /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+	border-collapse:collapse;
+}
+.tr1
+{
+	border: 1px solid black;
+	border-collapse:collapse;
+}

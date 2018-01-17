@@ -1,0 +1,28 @@
+<d4> Robin le best </d4>
+
+<?php
+try
+{	
+$bdd = new PDO('mysql:host=barchezawuprojet.mysql.db;dbname=barchezawuprojet','barchezawuprojet', 'Application1',
+array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+}
+catch(Exception $e)
+{
+// En cas d'erreur, on affiche un message et on arrête tout
+die('Erreur : '.$e->getMessage());
+}
+$bdd->exec("SET CHARACTER SET utf8");
+?>
+
+
+
+<?php
+
+$req_emp = $bdd->prepare('select DescriptionP from Produit');
+if($req_emp->execute (array($_POST['DescriptionP']))){
+	while ($row = $req_emp->fetch()){
+				echo '<h4>'.$row['DescriptionP'].'</h4>';
+				$DescriptionP = $row['DescriptionP'];
+	}
+}
+?>
